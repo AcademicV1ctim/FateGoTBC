@@ -1,0 +1,27 @@
+{
+  "name": "fategotbc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AcademicV1ctim/FateGoTBC.git"
+  },
+  "author": "Nathaniel Low",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AcademicV1ctim/FateGoTBC/issues"
+  },
+  "homepage": "https://github.com/AcademicV1ctim/FateGoTBC#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "node": "^23.11.0"
+  },
+  "devDependencies": {
+    "prisma": "^6.6.0"
+  }
+}
