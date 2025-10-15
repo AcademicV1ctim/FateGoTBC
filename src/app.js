@@ -6,6 +6,10 @@ const app = express();
 app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public/landing', 'Landing.html'));
+});
+
 const userRouter = require('./routers/Users.router');
 
 app.use('/users',userRouter);
